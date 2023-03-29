@@ -17,7 +17,6 @@ fs.readFile('sample.json', 'utf8', (err, data) => {
     console.log(_isCorrect(fieldErrors[i]))
   }
 
-  console.log(fieldErrors.length)
 })
 
 function _isCorrect(item) {
